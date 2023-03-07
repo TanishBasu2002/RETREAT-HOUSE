@@ -58,7 +58,7 @@ function App() {
 
             if (profileObj) {
                 const response = await fetch(
-                    "https://inventory-dashboard.onrender.com/api/v1/users",
+                    "https://inventory-server-6prl.onrender.com/api/v1/users",
                     {
                         method: "POST",
                         headers: { "Content-Type": "application/json" },
@@ -128,7 +128,7 @@ function App() {
             <GlobalStyles styles={{ html: { WebkitFontSmoothing: "auto" } }} />
             <RefineSnackbarProvider>
                 <Refine
-                    dataProvider={dataProvider("https://inventory-dashboard.onrender.com/api/v1")}
+                    dataProvider={dataProvider("https://inventory-server-6prl.onrender.com/api/v1")}
                     notificationProvider={notificationProvider}
                     ReadyPage={ReadyPage}
                     catchAll={<ErrorComponent />}
