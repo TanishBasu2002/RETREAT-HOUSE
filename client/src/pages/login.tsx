@@ -1,6 +1,6 @@
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useLogin } from "@pankod/refine-core";
-import { Container, Box } from "@pankod/refine-mui";
+import { Container, Box, CircularProgress } from "@pankod/refine-mui";
 
 import { yariga } from "../assets";
 
@@ -8,6 +8,7 @@ import { CredentialResponse } from "../interfaces/google";
 
 export const Login: React.FC = () => {
     const { mutate: login } = useLogin<CredentialResponse>();
+    const [isSubmitting, setIsSubmitting] = useState(false);
 
     const GoogleButton = (): JSX.Element => {
         const divRef = useRef<HTMLDivElement>(null);
@@ -27,7 +28,9 @@ export const Login: React.FC = () => {
                     client_id: "1061851516218-v0oocvf2k7aldog1pk81nigr40elghqt.apps.googleusercontent.com",
                     callback: async (res: CredentialResponse) => {
                         if (res.credential) {
-                            login(res);
+                            setIsSubmitting(true);
+                            await login(res);
+                            setIsSubmitting(false);
                         }
                     },
                 });
@@ -69,6 +72,11 @@ export const Login: React.FC = () => {
                     </div>
                     <Box mt={4}>
                         <GoogleButton />
+                        {isSubmitting && (
+                            <Box mt={2}>
+                                <CircularProgress />
+                            </Box>
+                        )}
                     </Box>
                 </Box>
             </Container>
