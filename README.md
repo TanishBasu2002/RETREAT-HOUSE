@@ -171,7 +171,7 @@ Create a .env file in the root directory of your app and add your environment va
 makefile
 Copy code
 ```bash
-PORT=3000
+PORT=5000
 MONGODB_URI=mongodb://localhost/my-database
 CLOUDINARY_CLOUD_NAME=your-cloud-name
 CLOUDINARY_API_KEY=your-api-key
@@ -216,7 +216,7 @@ app.get('/', (req, res) => {
 });
 
 // Start server
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 5000;
 app.listen(port, () => {
   console.log(`Server listening on port ${port}`);
 });
@@ -228,6 +228,6 @@ Copy code
 ```bash
 npm run dev
 ```
-This will start the development server with nodemon, and your app should be accessible on http://localhost:3000.
+## This will start the development server with nodemon, and your app should be accessible on http://localhost:5000.
 
 That's it! You now have a basic Node.js app set up with the listed dependencies. From here, you can start building your app by using the different libraries and tools you have installed.
