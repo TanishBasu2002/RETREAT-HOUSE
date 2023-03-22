@@ -1,8 +1,8 @@
-Client Side
+# Client Side
 
-Prerequisites
+## Prerequisites
 Node.js and npm should be installed on your machine.
-Step 1: Create a new React app
+## Step 1: Create a new React app
 You can create a new React app using create-react-app by running the following command in your terminal:
 
 
@@ -13,7 +13,7 @@ Copy code
 
 Replace my-app with the name of your app.
 
-Step 2: Install the dependencies
+## Step 2: Install the dependencies
 Navigate to the root directory of your app and run the following command to install the dependencies listed in your package.json file:
 
 Copy code
@@ -21,7 +21,7 @@ Copy code
     npm install
 ```
 
-Step 3: Add Refine to your app
+## Step 3: Add Refine to your app
 To add Refine to your app, run the following command:
 
 Copy code
@@ -29,7 +29,7 @@ Copy code
     npm install @pankod/refine-mui @pankod/refine-core @pankod/refine-react-router-v6 @pankod/refine-simple-rest @pankod/refine-inferencer @pankod/refine-react-hook-form --save
 ```
 
-Step 4: Install Material UI Icons
+## Step 4: Install Material UI Icons
 To use Material UI Icons in your app, run the following command:
 
 Copy code
@@ -37,14 +37,14 @@ Copy code
     npm install @mui/icons-material --save
 ```
 
-Step 5: Install ApexCharts
+## Step 5: Install ApexCharts
 To use ApexCharts in your app, run the following command:
 
 Copy code
 ```bash
     npm install apexcharts react-apexcharts --save
 ```
-Step 6: Install Axios
+## Step 6: Install Axios
 To use Axios in your app, run the following command:
 
 Copy code
@@ -52,7 +52,7 @@ Copy code
     npm install axios --save
 ```
 
-Step 7: Install dotenv
+## Step 7: Install dotenv
 To use dotenv in your app, run the following command:
 
 Copy code
@@ -60,7 +60,7 @@ Copy code
    npm install dotenv --save 
 ```
 
-Step 8: Install React Spinners
+## Step 8: Install React Spinners
 To use React Spinners in your app, run the following command:
 
 Copy code
@@ -68,7 +68,7 @@ Copy code
    npm install react-spinners --save 
 ```
 
-Step 9: Install Testing Libraries
+## Step 9: Install Testing Libraries
 To use Testing Libraries in your app, run the following command:
 
 Copy code
@@ -76,7 +76,7 @@ Copy code
   npm install @testing-library/jest-dom @testing-library/react @testing-library/user-event --save-dev  
 ```
 
-Step 10: Install Typescript and related types
+## Step 10: Install Typescript and related types
 To use TypeScript in your app, run the following command:
 
 Copy code
@@ -84,7 +84,7 @@ Copy code
   npm install typescript @types/node @types/react @types/react-dom --save-dev
 ```
 
-Step 11: Start the app
+## Step 11: Start the app
 To start the app, run the following command:
 
 Copy code
@@ -92,15 +92,15 @@ Copy code
    npm start 
 ```
 
-This will start the development server and your app should be accessible on http://localhost:3000.
+## This will start the development server and your app should be accessible on http://localhost:3000.
 
 That's it! You now have a basic React app set up with the listed dependencies. From here, you can start building your app by using the different libraries and tools you have installed.
 
-Server Side
+# Server Side
 
-Prerequisites
+## Prerequisites
 Node.js and npm should be installed on your machine.
-Step 1: Create a new Node.js project
+## Step 1: Create a new Node.js project
 Create a new Node.js project by running the following command in your terminal:
 
 perl
@@ -116,56 +116,56 @@ npm init -y
 ```
 Replace my-app with the name of your app.
 
-Step 2: Install the dependencies
+## Step 2: Install the dependencies
 Navigate to the root directory of your app and run the following command to install the dependencies listed in your package.json file:
 
 Copy code
 ```bash
 npm install
 ```
-Step 3: Install Express
+## Step 3: Install Express
 To use Express in your app, run the following command:
 
 Copy code
 ```bash
 npm install express --save
 ```
-Step 4: Install Mongoose
+## Step 4: Install Mongoose
 To use Mongoose in your app, run the following command:
 
 Copy code
 ```bash
 npm install mongoose --save
 ```
-Step 5: Install dotenv
+## Step 5: Install dotenv
 To use dotenv in your app, run the following command:
 
 Copy code
 ```bash
 npm install dotenv --save
 ```
-Step 6: Install cors
+## Step 6: Install cors
 To use cors in your app, run the following command:
 
 Copy code
 ```bash
 npm install cors --save
 ```
-Step 7: Install Cloudinary
+## Step 7: Install Cloudinary
 To use Cloudinary in your app, run the following command:
 
 Copy code
 ```bash
 npm install cloudinary --save
 ```
-Step 8: Install nodemon
+## Step 8: Install nodemon
 To use nodemon in your app, run the following command:
 
 Copy code
 ```bash
 npm install nodemon --save-dev
 ```
-Step 9: Create a .env file
+## Step 9: Create a .env file
 Create a .env file in the root directory of your app and add your environment variables. For example:
 
 makefile
@@ -177,7 +177,7 @@ CLOUDINARY_CLOUD_NAME=your-cloud-name
 CLOUDINARY_API_KEY=your-api-key
 CLOUDINARY_API_SECRET=your-api-secret
 ```
-Step 10: Create the app
+## Step 10: Create the app
 Create a new file called app.js in the root directory of your app and add the following code:
 
 ```bash
@@ -221,7 +221,7 @@ app.listen(port, () => {
   console.log(`Server listening on port ${port}`);
 });
 ```
-Step 11: Start the app
+## Step 11: Start the app
 To start the app, run the following command:
 
 Copy code
