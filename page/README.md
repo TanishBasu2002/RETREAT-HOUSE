@@ -15,4 +15,4 @@ Change the data in the ```data.json``` file as well as add any images to ```publ
 You can also change styles by modifying the ```public/css``` files.
 
 
-# <a href="[https://nodejs.org/](https://tanish-basu-portfolio.netlify.app/)">Tanish Basu</a>
+# <a href="https://tanish-basu-portfolio.netlify.app/">Tanish Basu</a>
