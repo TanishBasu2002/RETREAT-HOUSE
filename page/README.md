@@ -1,10 +1,5 @@
 # React JS Landing Page  
 
-**
-
-**
-
-
 ## Description
 This is a ReactJS based landing page template. The design is inspired by a template from <a href="https://www.free-css.com/assets/files/free-css-templates/preview/page234/interact/">Free-CSS.com </a>
 All 'visual' data can be easily modified by changing the data.json file.
@@ -20,8 +15,4 @@ Change the data in the ```data.json``` file as well as add any images to ```publ
 You can also change styles by modifying the ```public/css``` files.
 
 
-## Credits
-##### Free CSS 
-<a href="https://www.free-css.com/assets/files/free-css-templates/preview/page234/interact/">Free-CSS.com </a>
-
-##### Tanish Basu
+# <a href="[https://nodejs.org/](https://tanish-basu-portfolio.netlify.app/)">Tanish Basu</a>
