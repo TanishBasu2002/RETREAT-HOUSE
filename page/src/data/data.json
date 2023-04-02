@@ -4,7 +4,7 @@
     "paragraph": "Most Trusted Real Estate App."
   },
   "About": {
-    "paragraph": "Real Estate is a premier real estate company that specializes in helping clients find their dream homes and investment properties. With a team of experienced agents who are passionate about real estate, we provide personalized attention to every client to ensure their needs are met and exceeded. At Real Estate, we understand that buying or selling a property can be a complex and emotional process. That's why we strive to make the experience as seamless as possible by offering expert advice, transparent communication, and a deep understanding of the local market.Our team of professionals is committed to staying up-to-date with the latest trends and technologies in real estate to provide our clients with the best possible service. Whether you're a first-time homebuyer, a seasoned investor, or looking to sell your property, we have the knowledge and expertise to guide you through every step of the process.At Real Estate, we believe that real estate is not just about buying or selling properties, but about building relationships with our clients that last a lifetime. We take pride in our reputation for honesty, integrity, and exceptional service, and we look forward to helping you achieve your real estate goals.",
+    "paragraph": "Real Estate is a premier real estate company that specializes in helping clients find their dream homes and investment properties. With a team of experienced agents who are passionate about real estate, we provide personalized attention to every client to ensure their needs are met and exceeded. At Real Estate, we understand that buying or selling a property can be a complex and emotional process. That's why we strive to make the experience as seamless as possible by offering expert advice, transparent communication, and a deep understanding of the local market.Our team of professionals is committed to staying up-to-date with the latest trends and technologies in real estate to provide our clients with the best possible service. Whether you're a first-time homebuyer, a seasoned investor, or looking to sell your property, we have the knowledge and expertise to guide you through every step of the process.At Real Estate, we believe that real estate is not just about buying or selling properties, but about building relationships with our clients that last a lifetime. We take pride in our reputation for honesty, integrity, and exceptional service, and we look forward to helping you achieve your real estate goals.This Project is created by us for our Minor Project in MAKAUT.",
     "Why": [
       "Great Prices",
       "24/7 Customer Service",
@@ -32,70 +32,55 @@
     },
     {
       "title": "Property 3",
-      "largeImage": "img/portfolio/03-large.jpg",
-      "smallImage": "img/portfolio/03-small.jpg"
-    },
-    {
-      "title": "Property 4",
       "largeImage": "img/portfolio/04-large.jpg",
       "smallImage": "img/portfolio/04-small.jpg"
     },
     {
-      "title": "Property 5",
+      "title": "Property 4",
       "largeImage": "img/portfolio/05-large.jpg",
       "smallImage": "img/portfolio/05-small.jpg"
     },
     {
-      "title": "Property 6",
+      "title": "Property 5",
       "largeImage": "img/portfolio/06-large.jpg",
       "smallImage": "img/portfolio/06-small.jpg"
     },
     {
-      "title": "Property 7",
+      "title": "Property 6",
       "largeImage": "img/portfolio/07-large.jpg",
       "smallImage": "img/portfolio/07-small.jpg"
-    },
-    {
-      "title": "Property 8",
-      "largeImage": "img/portfolio/08-large.jpg",
-      "smallImage": "img/portfolio/08-small.jpg"
-    },
-    {
-      "title": "Property 9",
-      "largeImage": "img/portfolio/09-large.jpg",
-      "smallImage": "img/portfolio/09-small.jpg"
     }
   ],
   "Services": [
     {
       "icon": "fa fa-cog fa-spin fa-3x fa-fw",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Newest Technical Interface",
+      "text": "We pride ourselves on staying up-to-date with the latest technologies and providing our clients with a state-of-the-art interface that is user-friendly, fast, and efficient."
     },
     {
       "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Easy Buying",
+      "text": "We understand that buying a property can be a complex and overwhelming process. That's why we strive to make it as easy and stress-free as possible by providing you with expert guidance, transparent communication, and a streamlined buying process."
     },
     {
       "icon": "fa fa-building",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Large Properties",
+      "text": "Whether you're looking for a spacious family home or a commercial property with ample space, we have a wide range of large properties to suit your needs. Our team of experts can help you find the perfect property with the space you need."
     },
     {
       "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Language Support",
+      "text": "We understand that language barriers can be a challenge for those looking to buy or sell properties internationally. That's why we offer language support in multiple languages, so you can communicate with us in the language you're most comfortable with."
     },
     {
       "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "International Survices",
+      "text": "We offer international services to help clients buy and sell properties globally. Our team of experts has a deep understanding of the international real estate market, which enables us to provide you with the best possible service and support."
     },
     {
       "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Stock Options",
+      "text": "For investors looking to diversify their portfolio, we offer a range of stock options in the real estate industry. Our team of experts can guide you through the process of investing in real estate stocks, providing you with the knowledge and insights you need to make informed decisions."
     }
   ],
   "Testimonials": [
@@ -130,11 +115,17 @@
       "name": "Johnathan Doe"
     }
   ],
+
   "Team": [
     {
       "img": "img/team/01.jpg",
+      "name": "Ayan Ghosh",
+      "job": "Cordinator"
+    },
+    {
+      "img": "img/team/01.jpg",
       "name": "Subhranil Chakrabarty",
-      "job": "Group Leader"
+      "job": "Group Leader & Frontend Developer"
     },
     {
       "img": "img/team/02.png",
@@ -155,6 +146,16 @@
       "img": "img/team/05.jpg",
       "name": "Oyasima Mandal",
       "job": "Tester"
+    },
+    {
+      "img": "img/team/06.png",
+      "name": "University",
+      "job": "MAKAUT"
+    },
+    {
+      "img": "img/team/07.jpg",
+      "name": "Department of Technology",
+      "job": "BCA"
     }
   ],
   "Contact": {

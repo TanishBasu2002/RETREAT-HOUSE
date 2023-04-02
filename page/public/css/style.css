@@ -319,6 +319,7 @@ header .intro-text {
 #services h2 {
   color: #fff;
 }
+
 #services .section-title h2::after {
   position: absolute;
   content: "";

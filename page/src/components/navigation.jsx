@@ -1,5 +1,5 @@
 import React from "react";
-
+import { logoo } from "./assets";
 export const Navigation = (props) => {
   return (
     <nav id="menu" className="navbar navbar-default navbar-fixed-top">
@@ -18,7 +18,7 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>{" "}
           </button>
           <a className="navbar-brand page-scroll" href="#page-top">
-            Real Estate
+          <img className='ta' src={logoo} alt='Real Estate'/>
           </a>{" "}
         </div>
 
@@ -63,7 +63,7 @@ export const Navigation = (props) => {
               </a>
             </li>
             <li>
-              <a href="#contact" className="page-scroll">
+              <a href="https://real-estate-tanish.netlify.app/" className="page-scroll">
                 Login
               </a>
             </li>
