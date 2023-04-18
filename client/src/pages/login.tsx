@@ -9,6 +9,7 @@ import { CredentialResponse } from "../interfaces/google";
 export const Login: React.FC = () => {
     const { mutate: login } = useLogin<CredentialResponse>();
     const [isSubmitting, setIsSubmitting] = useState(false);
+    const [isGoogleButtonClicked, setIsGoogleButtonClicked] = useState(false);
 
     const GoogleButton = (): JSX.Element => {
         const divRef = useRef<HTMLDivElement>(null);
@@ -28,9 +29,11 @@ export const Login: React.FC = () => {
                     client_id: "1061851516218-v0oocvf2k7aldog1pk81nigr40elghqt.apps.googleusercontent.com",
                     callback: async (res: CredentialResponse) => {
                         if (res.credential) {
+                            setIsGoogleButtonClicked(true);
                             setIsSubmitting(true);
                             await login(res);
                             setIsSubmitting(false);
+                            setIsGoogleButtonClicked(false);
                         }
                     },
                 });
@@ -68,11 +71,11 @@ export const Login: React.FC = () => {
                     }}
                 >
                     <div>
-                        <img src={yariga} alt="Yariga Logo" />
+                        <img src={yariga} alt="Logo" />
                     </div>
                     <Box mt={4}>
                         <GoogleButton />
-                        {isSubmitting && (
+                        {isSubmitting && isGoogleButtonClicked && (
                             <Box mt={2}>
                                 <CircularProgress />
                             </Box>

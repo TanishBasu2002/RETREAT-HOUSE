@@ -1,25 +1,3 @@
-@media screen and (max-width: 400px) {
-  #features {
-    padding: 20px;
-    width: 111%;
-  }
-  #about,
-  #services,
-  #testimonials,
-  #team,
-  #contact,
-  #footer {
-    width: 111%;
-  }
-
-  #portfolio {
-    width: 110%;
-  }
-}
-.ta{
-  width: 150px;
-  height: 40px;
-}
 /* Form styles */
 #contact form input[type=text],
 #contact form input[type=email],

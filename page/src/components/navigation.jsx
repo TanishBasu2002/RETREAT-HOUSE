@@ -27,9 +27,9 @@ export const Navigation = (props) => {
           id="bs-example-navbar-collapse-1"
         >
           <ul className="nav navbar-nav navbar-right">
-            <li>
-              <a href="#features" className="page-scroll">
-                Features
+          <li>
+              <a href="#page-top" className="page-scroll">
+                Home
               </a>
             </li>
             <li>
@@ -49,12 +49,7 @@ export const Navigation = (props) => {
             </li>
             <li>
               <a href="#testimonials" className="page-scroll">
-                Testimonials
-              </a>
-            </li>
-            <li>
-              <a href="#team" className="page-scroll">
-                Team
+                Reviews
               </a>
             </li>
             <li>
@@ -63,7 +58,7 @@ export const Navigation = (props) => {
               </a>
             </li>
             <li>
-              <a href="https://real-estate-tanish.netlify.app/" className="page-scroll">
+              <a href="https://real-estate-tanish.netlify.app/" id="login">
                 Login
               </a>
             </li>

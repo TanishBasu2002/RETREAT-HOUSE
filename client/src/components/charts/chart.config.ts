@@ -41,7 +41,7 @@ export const TotalRevenueOptions: ApexOptions = {
   },
   yaxis: {
     title: {
-      text: '$ (thousands)',
+      text: '₹ (thousands)',
     },
   },
   fill: {
@@ -54,7 +54,7 @@ export const TotalRevenueOptions: ApexOptions = {
   tooltip: {
     y: {
       formatter(val: number) {
-        return `$ ${val} thousands`;
+        return `₹ ${val} thousands`;
       },
     },
   },

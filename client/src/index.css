@@ -1,39 +1,108 @@
-* {
-  font-family: 'Manrope', sans-serif !important;
+/* Container box for AgentCard */
+.AgentCard-link {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  transition: box-shadow 0.2s ease-in-out;
 }
 
-a {
-  text-decoration: none !important;
+.AgentCard-link:hover {
+  box-shadow: 0 22px 45px 2px rgba(176, 176, 176, 0.1);
 }
 
-.my_profile-bg {
-  width: 340px;
-  border-top-left-radius: 15px;
-  border-bottom-left-radius: 15px;
+/* Avatar image */
+.AgentCard-avatar {
+  border-radius: 8px;
+  object-fit: cover;
 }
 
-.my_profile_user-img {
-  border-radius: 100%;
-  margin-left: -64px;
+/* Name and occupation */
+.AgentCard-name {
+  font-size: 22px;
+  font-weight: 600;
+  color: #11142d;
+  margin: 0;
 }
 
-.property_details-img {
-  width: 100%;
+.AgentCard-occupation {
+  font-size: 14px;
+  color: #808191;
 }
 
-@media screen and (max-width: 900px) {
-  .my_profile-bg {
-      width: 100%;
-      border-radius: 15px;
+/* InfoBar container */
+.AgentCard-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2px;
+}
+
+/* Icon for InfoBar */
+.AgentCard-icon {
+  color: #808191;
+}
+
+/* Label for InfoBar */
+.AgentCard-label {
+  font-size: 14px;
+  color: #808191;
+}
+
+/* Media queries for responsive design */
+@media only screen and (min-width: 600px) {
+  .AgentCard-link {
+    flex-direction: row;
+    min-width: 300px;
   }
+}
+#chart {
+  border: 1px solid #e5e5e5;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease-in-out;
+}
 
-  .my_profile_user-img {
-      margin-left: 0px;
-      margin-top: -64px;
-  }
+#chart:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
 
-  .property_details-img {
-      width: 100%;
-      height: auto;
-  }
+#chart .apexcharts-svg {
+  display: block;
+  margin: 0 auto;
+}
+
+#chart .apexcharts-datalabels-group {
+  display: none;
+}
+
+#chart .apexcharts-tooltip {
+  font-size: 14px;
+  color: #11142d;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 8px 12px;
+  text-align: center;
+}
+
+#chart .apexcharts-tooltip-title {
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+#chart .apexcharts-tooltip-series-group {
+  margin-bottom: 4px;
+}
+
+#chart .apexcharts-tooltip-marker {
+  display: none;
+}
+
+#chart .apexcharts-pie-label {
+  font-size: 14px;
+  color: #808191;
+  font-weight: 400;
+  text-anchor: middle;
+  dominant-baseline: middle;
 }

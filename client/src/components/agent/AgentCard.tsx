@@ -19,7 +19,7 @@ const InfoBar = ({ icon, name }: InfoBarProps) => (
         direction="row"
     >
         {icon}
-        <Typography fontSize={14} color="#808191">
+        <Typography fontSize={14} color="#aab8c2">
             {name}
         </Typography>
     </Stack>
@@ -50,8 +50,13 @@ const AgentCard = ({
                 flexDirection: { xs: "column", sm: "row" },
                 gap: "20px",
                 padding: "20px",
+                borderRadius: 8,
+                backgroundColor: "#fff",
+                boxShadow: "0px 4px 20px rgba(0, 0, 0, 0.05)",
+                transition: "all .3s ease-in-out",
                 "&:hover": {
-                    boxShadow: "0 22px 45px 2px rgba(176,176,176,0.1)",
+                    backgroundColor: "#f4faff",
+                    boxShadow: "0px 4px 30px rgba(0, 0, 0, 0.1)",
                 },
             }}
         >
@@ -64,16 +69,17 @@ const AgentCard = ({
                 alt="user"
                 width={90}
                 height={90}
-                style={{ borderRadius: 8, objectFit: "cover" }}
+                style={{ borderRadius: "50%", objectFit: "cover" }}
             />
             <Stack
                 direction="column"
                 justifyContent="space-between"
                 flex={1}
                 gap={{ xs: 4, sm: 2 }}
+                ml={{ sm: 4 }}
             >
                 <Stack
-                    gap={2}
+                    gap={1}
                     direction="row"
                     flexWrap="wrap"
                     alignItems="center"
@@ -82,7 +88,7 @@ const AgentCard = ({
                         {name}
                     </Typography>
                     <Typography fontSize={14} color="#808191">
-                        Real-Estate Agent
+                        Holiday Agent
                     </Typography>
                 </Stack>
                 <Stack

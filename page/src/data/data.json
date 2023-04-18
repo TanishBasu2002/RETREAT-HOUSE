@@ -1,10 +1,10 @@
 {
   "Header": {
-    "title": "Welcome to Real-Estate",
+    "title": "Welcome to Holiday-Home",
     "paragraph": "Most Trusted Real Estate App."
   },
   "About": {
-    "paragraph": "Real Estate is a premier real estate company that specializes in helping clients find their dream homes and investment properties. With a team of experienced agents who are passionate about real estate, we provide personalized attention to every client to ensure their needs are met and exceeded. At Real Estate, we understand that buying or selling a property can be a complex and emotional process. That's why we strive to make the experience as seamless as possible by offering expert advice, transparent communication, and a deep understanding of the local market.Our team of professionals is committed to staying up-to-date with the latest trends and technologies in real estate to provide our clients with the best possible service. Whether you're a first-time homebuyer, a seasoned investor, or looking to sell your property, we have the knowledge and expertise to guide you through every step of the process.At Real Estate, we believe that real estate is not just about buying or selling properties, but about building relationships with our clients that last a lifetime. We take pride in our reputation for honesty, integrity, and exceptional service, and we look forward to helping you achieve your real estate goals.This Project is created by us for our Minor Project in MAKAUT.",
+    "paragraph": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, commodi placeat dolor, in nobis nulla quod, ipsam facilis velit dignissimos voluptate ipsum officia. Necessitatibus, illo. A aliquid est cupiditate labore.",
     "Why": [
       "Great Prices",
       "24/7 Customer Service",
@@ -146,16 +146,6 @@
       "img": "img/team/05.jpg",
       "name": "Oyasima Mandal",
       "job": "Tester"
-    },
-    {
-      "img": "img/team/06.png",
-      "name": "University",
-      "job": "MAKAUT"
-    },
-    {
-      "img": "img/team/07.jpg",
-      "name": "Department of Technology",
-      "job": "BCA"
     }
   ],
   "Contact": {
