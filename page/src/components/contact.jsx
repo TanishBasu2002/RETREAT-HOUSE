@@ -152,10 +152,8 @@ export const Contact = (props) => {
       <div id="footer">
         <div className="container text-center">
           <p>
-            &copy; 2023 Landing Page . Design by{" "}
-            <a href="https://tanish-basu-portfolio.netlify.app/" rel="nofollow">
-              Tanish Basu
-            </a>
+            &copy; 2023 Landing Page . 
+          
           </p>
         </div>
       </div>
